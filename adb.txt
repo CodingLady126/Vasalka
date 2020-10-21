@@ -1,0 +1,16 @@
+adb shell pm uninstall co.gergely.vasalka
+
+adb push /Users/gergelya/AndroidStudioProjects/vasalka-android/app/release/app-release.apk /data/local/tmp/co.gergely.vasalka
+adb push /home/gergelya/AndroidStudioProjects/Vasalka/app/release/app-release.apk /data/local/tmp/co.gergely.vasalka
+
+adb shell pm install -t -r "/data/local/tmp/co.gergely.vasalka"
+
+adb shell am start -n "co.gergely.vasalka/co.gergely.vasalka.activity.SplashActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER
+
+
+MAC
+adb shell pm uninstall co.gergely.vasalka ; adb push /Users/gergelya/AndroidStudioProjects/vasalka-android/app/release/app-release.apk /data/local/tmp/co.gergely.vasalka && adb shell pm install -t -r "/data/local/tmp/co.gergely.vasalka" && adb shell am start -n "co.gergely.vasalka/co.gergely.vasalka.activity.SplashActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER
+
+Linux
+adb shell pm uninstall co.gergely.vasalka ; adb push /home/gergelya/AndroidStudioProjects/Vasalka/app/release/app-release.apk /data/local/tmp/co.gergely.vasalka && adb shell pm install -t -r "/data/local/tmp/co.gergely.vasalka" && adb shell am start -n "co.gergely.vasalka/co.gergely.vasalka.activity.SplashActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER
+

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vasalka</string>
+    <string name="title_activity_main">Főoldal</string>
+
+    <string name="data_protection_title">Adatkezelés</string>
+    <string name="about_title">Rólunk</string>
+    <string name="contact_title">Kapcsolat</string>
+
+    <string name="service_ironing">Vasalás</string>
+    <string name="service_washing">Mosás</string>
+    <string name="service_cleaning">Takarítás</string>
+    <string name="service_gardening">Kertrendezés</string>
+
+    <string name="please_login">Jelentkezz Be!</string>
+    <string name="choose_account">Melyik fiókodat választod?</string>
+    <string name="or_try_different">vagy jelentkezz be máskép!</string>
+    <string name="phone_btn">Telefon (sms)</string>
+    <string name="google_login_error">Google belépési hiba</string>
+    <string name="facebook_login_canceled">Facebook bejelntkezés megszakítva</string>
+    <string name="facebook_login_error">Facebook belépési hiba</string>
+    <string name="authentication_failed">Belépés sikertelen</string>
+    <string name="email_hint">E-mail</string>
+    <string name="password_hint">Jelszó</string>
+    <string name="password2_hint">Jelszó ellenőrzés</string>
+    <string name="email_not_valid">Nem valós e-mail cím</string>
+    <string name="password_cant_be_empty">Jelszó nem lehet üres</string>
+    <string name="login_button_text">Belépés</string>
+    <string name="signup_text">Ha még nem rendelkezel Vasalka fiókkal</string>
+    <string name="forgot_password_text">Elfelejtett jelszó</string>
+    <string name="signup_button_text">Regisztráció</string>
+    <string name="email_cant_empty">E-mail nem lehet üres</string>
+    <string name="password_too_short">A jelszó túl rövid</string>
+    <string name="password_not_match">Nem egyeznek a jelszavak</string>
+    <string name="password_not_complex">A jelszóbak tartalmaznia kell legalaább 1 nagybetűt, 1 kisbetűt, és 1 számot
+    </string>
+    <string name="verify_email_sent_to">Ellenőrző e-mail kiküldve a következő címre: "</string>
+    <string name="verify_email">Kérjük ellenőrizze leveles ládáját, és igazolja vissza az e-mail címét.</string>
+    <string name="send_button">Küldés</string>
+    <string name="email_sent">E-mail elküldve!</string>
+    <string name="email_not_exist">Ez az email cím nem létezik az adatbázisuknban!</string>
+
+    <string name="sms_info_text">Kérjük az alábbi formátumba adja meg telefonszámát.\n +36201234567\n Az SMS ingyenes
+        önnek nem kerül plusz költségbe!
+    </string>
+    <string name="sms_info_text_code">Kérem írja be az sms-ben kapot kódot\nKöszönjük</string>
+    <string name="tel_hint">Tel</string>
+    <string name="tel_hint_code">Ellenörző kód</string>
+    <string name="invalid_request">Ellenörzés sikertelen\nHibás kérés</string>
+    <string name="sms_quota_exceeded">Ellenörzés sikertelen\n SMS kvóta túllépés\n Kérjük lépjen velünk kapcsolatba
+    </string>
+    <string name="sms_verify">Ellenőrzés</string>
+    <string name="sms_check_your_messages">Kérem nézze meg az üzeneteit</string>
+    <string name="phone_not_valid">Nem érvényes telefonszám</string>
+    <string name="wrong_code">Hibás kód\nPróbálja újra</string>
+
+
+    <string name="my_profile_name_hint">Név</string>
+    <string name="my_profile_name_info">Ezzel a névvel fog látszani\nPéldául: Gipsz Jakab</string>
+    <string name="my_profile_email_info">Az e-mail címet nem látja senki!\nNem nyilvános adat</string>
+    <string name="my_profile_tel_info">Telefonszáma!\nNem kötelező adat</string>
+    <string name="my_profile_city_info">Lakhelye szerinti város. Nyilvános adat!\nHa nem találja városát jelölje be az
+        önhöz legközelebb lévőt.
+    </string>
+    <string name="my_profile_address_hint">Cím</string>
+    <string name="my_profile_address_info">Lakcím.\n Nem nyilvános adat</string>
+    <string name="my_profile_bio_hint">Bemutatkozás</string>
+    <string name="my_profile_send_button">Mentés</string>
+    <string name="my_profile_about">Kérjük töltse ki az adatlapot. Az adott mezők mellett található kis \"i\" iconra
+        tappintva kaphat több információt,
+        ha esetleg nem lenne egyértelnmü valami. Képet cserélni pedig a kis \"+\" jelre kattintva tudd. Amenyiben az ön
+        városa nem található a listában kérjük válassza az önhöz legközelebbit.
+        Kérem vegye figyelembe, hogy bár a telefon szám megadása nem kötelező, de az esetleges megrendelőnek, vagy
+        szolgáltatónak sokkal könyeb így elérnie önt!
+    </string>
+    <string name="my_profile_im_provider">Szolgáltató vagyok</string>
+    <string name="my_profile_im_not_provider">Nem vagyok szolgáltató</string>
+    <string name="my_profile_tender_info">Ha nem szeretne értesítést kapni az új tenderekről!</string>
+    <string name="my_profile_chat_info">Ha nem szeretne értesítést kapni az új privát üzenetekről</string>
+    <string name="my_profile_is_Service_info">Ha ön szolgáltató</string>
+    <string name="my_profile_error_required">Kötelező megadni</string>
+    <string name="my_profile_error_select_city">Kötelező várost választani</string>
+
+
+    <string name="menu_home">Főoldal</string>
+    <string name="menu_search">Keresés, Tender</string>
+    <string name="menu_services">Szolgáltatók</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_bookmarks">Kedvencek</string>
+    <string name="menu_rate">Értékelések</string>
+    <string name="menu_map">Térkép</string>
+    <string name="menu_about">Rólunk</string>
+    <string name="menu_data_protection">Adatkezelés</string>
+    <string name="menu_contact">Kapcsolat</string>
+    <string name="menu_logout">Kilépés</string>
+    <string name="menu_delete">Profil törlés</string>
+    <string name="pickImageDialog_title">Válassz</string>
+    <string name="pickImageDialog_camera">Kamera</string>
+    <string name="pickImageDialog_gallery">Galéria</string>
+    <string name="pickImageDialog_cancel">Mégsem</string>
+    <string name="show_profile_count_rate_empty">Nincs értékelés</string>
+    <string name="show_profile_count_rate_label">(%d) értékelés</string>
+    <string name="service">"Szolgáltatás: "</string>
+    <string name="satisfactions">Értékelések</string>
+    <string name="noResultFound">Nincs Találat!</string>
+    <string name="OK">Rendben</string>
+    <string name="distanceLabel">Körzet:</string>
+    <string name="distanceEndLabel">" km távolságra"</string>
+    <string name="my_profile_alert_on_tender">Tender értesítés</string>
+    <string name="my_profile_alert_on_chat">Chat értesítés</string>
+    <string name="only3TenderImageMsg">Három kép feltőltésre van lehetőség</string>
+    <string name="countdownTenderImage">Még %1d képre van lehetőség</string>
+    <string name="noMoreImagePossibillity">Nincs több lehetőség</string>
+    <string name="fileUploadTitle">Feltöltés ...</string>
+    <string name="tenderApplyBtn">Jelentkezem</string>
+    <string name="tenderAlerted">%d éretesített személy</string>
+    <string name="tenderSaw">%d -szor tekintették meg</string>
+    <string name="tenderApplied">%d személy jelentkezett</string>
+    <string name="newMessageTitle">Új üzenet</string>
+    <string name="newMessageBody">%s üzenetett küldött önnek</string>
+    <string name="alertTitleAttention">Figyelem</string>
+    <string name="partnerDeletedConversation">%s törölte a bezsélgetésüket.\nHa ír is neki azt ő nem kapja meg!</string>
+    <string name="areYouSureDelete">Biztosan ezt akarod? Törlöd?</string>
+    <string name="yes">Igen</string>
+    <string name="cancel">Mégsem</string>
+    <string name="ok">Ok</string>
+    <string name="no">Nem</string>
+    <string name="typeYourMsg">ide írd az üzenetett</string>
+    <string name="bookmarkAdded">Hozzáadva a kedvencekhez</string>
+    <string name="typePersonName">személy neve</string>
+    <string name="doYouWantToAddToBookmark">Szeretnéd hozzá adni a kedvencek listádhoz?</string>
+    <string name="bookmarkAlreadyExist">Már a kedvencek közt volt</string>
+    <string name="bookmarkPersonObjectTypeLabel">Kedvenc személyek</string>
+    <string name="bookmarkTenderObjectTypeLabel">Kedvenc tenderek</string>
+    <string name="bookmarkChatObjectTypeLabel">Kedvenc beszélgetések</string>
+    <string name="noResults">Nincs találat</string>
+    <string name="newNewsPushTitle">Hírek</string>
+    <string name="newNewsPushBody">Új tartalom érhető el</string>
+    <string name="dataprotectionUrl">http://www.vasalka.hu/data_protection_hu.html</string>
+    <string name="name">Név</string>
+    <string name="tel">Telefon</string>
+    <string name="email">E-mail</string>
+    <string name="tax">Adószám</string>
+    <string name="address">Székhely</string>
+    <string name="areYouSure">Biztosan ezt szeretnéd?</string>
+    <string name="logout">Kilépés</string>
+    <string name="servicer">Szolgáltató</string>
+    <string name="client">Ügyfél</string>
+    <string name="tender">Tender</string>
+    <string name="satisfaction">Értékelés</string>
+    <string name="searchTitleSearch">Keresés</string>
+    <string name="searchTitleTender">Új Tender</string>
+    <string name="timeOutTitle">Idő túllépés</string>
+    <string name="timeOutMessage">Nem tudok kapcsolódni a kiszolgálóhoz!</string>
+    <string name="timeOutTryAgain">Próbáld újra</string>
+    <string name="timeOutTryLater">Próbáld később</string>
+    <string name="buildVersionLabel">Verzió</string>
+    <string name="news">Hírek</string>
+    <string name="addTenderToBookmark">Tendert a kedvencekhez</string>
+    <string name="newTenderTitle">Új Tender</string>
+    <string name="appliedYourTender">Valaki jelentkezett a tenderedre</string>
+    <string name="appliedPersonList">Jelentkeztek:</string>
+    <string name="show_profile">Profil megtekintés</string>
+    <string name="serviceAreaTextKm">+ %d km-es körzetben</string>
+    <string name="sureDeletetitle">A felhasználó törlése</string>
+    <string name="sureDeleteMessage">Biztosan ezt szeretnéd?\nNagyon sajnáljuk, hogy elmész!\nAzért reméljük hamarosan
+        újra láthatjuk egymást!.\n Viszlát.
+    </string>
+    <string name="goodbye">Reméljük találkozunk még.\nViszlát!</string>
+    <string name="unknownError">Ismeretlen hiba</string>
+
+
+</resources>

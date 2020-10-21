@@ -1,0 +1,95 @@
+{
+  "project_info": {
+    "project_number": "663816647794",
+    "firebase_url": "https://vasalka-d752d.firebaseio.com",
+    "project_id": "vasalka-d752d",
+    "storage_bucket": "vasalka-d752d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663816647794:android:fa18bfd7d95498d1",
+        "android_client_info": {
+          "package_name": "co.gergely.vasalka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663816647794-gpv7fcpe06u20vd60g5n6v6sm8je5com.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.gergely.vasalka",
+            "certificate_hash": "f35b129a94c67bba86ed4495da508d3daa40b38a"
+          }
+        },
+        {
+          "client_id": "663816647794-hbcr95i5linsciltv9m12vs3hriohj1p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.gergely.vasalka",
+            "certificate_hash": "358cf1944a149ff5a0c9bb1cb593c30138ed0732"
+          }
+        },
+        {
+          "client_id": "663816647794-n0eq9arcaj444vitd7hvii47nr8a7un1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.gergely.vasalka",
+            "certificate_hash": "ac98698c65d8e33f354280e4e31c184b16630d41"
+          }
+        },
+        {
+          "client_id": "663816647794-3o5q9t6ofealb5crr99l5q3keo6mic43.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.gergely.vasalka",
+            "certificate_hash": "3d41694407efb729ea2a8e073ee0bc06f6764192"
+          }
+        },
+        {
+          "client_id": "663816647794-nli7cq3l6ea3gt9abjbl5j101nf0icj6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.gergely.vasalka",
+            "certificate_hash": "ff1e2e450e5ca3e33d3aa9d011534fa5be11b6b8"
+          }
+        },
+        {
+          "client_id": "663816647794-82baj28ouo12qisc0vrvm5e59bag2dsf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYZ7FuP7d95GJC51LSACSMKmoQWFLPTeM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663816647794-82baj28ouo12qisc0vrvm5e59bag2dsf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "663816647794-faeg6u88kaebjv9daqdlcvmh71fi5hie.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.gergely.vasalka"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-1822612291380564~1935620785"
+    }
+  ],
+  "configuration_version": "1"
+}

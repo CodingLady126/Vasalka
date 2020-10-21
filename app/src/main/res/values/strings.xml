@@ -1,0 +1,208 @@
+<resources>
+    <string name="app_name">Vasalka</string>
+    <!-- <string name="banner_ad_unit_id" translatable="false">ca-app-pub-1822612291380564~1935620785</string> -->
+    <string name="ad_app_id" translatable="false">ca-app-pub-1822612291380564~1935620785</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-1822612291380564/8204576624</string>
+    <string name="interstitial_ad_unit_id" translatable="false">ca-app-pub-1822612291380564/5956615403</string>
+    <string name="web_client_id" translatable="false">
+        663816647794-82baj28ouo12qisc0vrvm5e59bag2dsf.apps.googleusercontent.com
+    </string>
+    <string name="facebook_app_id" translatable="false">150150872338272</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb150150872338272</string>
+
+    <string name="subtitle" translatable="false">Tiszta Udvar Rendes Ház</string>
+
+    <string name="title_activity_main">Home</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="service_ironing">Ironing</string>
+    <string name="service_washing">Washing</string>
+    <string name="service_cleaning">Cleaning</string>
+    <string name="service_gardening">Gardening</string>
+
+    <!-- Login activity -->
+    <string name="data_protection_title">Data protection</string>
+    <string name="about_title">About</string>
+    <string name="contact_title">Contact</string>
+    <string name="please_login">Please Login!</string>
+    <string name="choose_account">Choose account</string>
+    <string name="or_try_different">or try with</string>
+    <string name="phone_btn">Phone (sms)</string>
+    <string name="google_login_error">Google login error</string>
+    <string name="facebook_login_canceled">Facebook login canceled</string>
+    <string name="facebook_login_error">Facebook login error</string>
+    <string name="authentication_failed">Authentication failed</string>
+    <string name="email_hint">E-mail</string>
+    <string name="password_hint">Password</string>
+    <string name="password2_hint">Password again</string>
+
+    <!-- Email login activity -->
+    <string name="email_not_valid">E-mail not valid</string>
+    <string name="password_cant_be_empty">Password can\'t be empty</string>
+    <string name="login_button_text">Login</string>
+    <string name="signup_text">In case you don\'t have an account, Signup!</string>
+    <string name="forgot_password_text">Forgott password</string>
+    <string name="signup_button_text">Signup</string>
+    <string name="email_cant_empty">E-mail can\'t be empty</string>
+    <string name="password_too_short">The password should be min 8 chars length</string>
+    <string name="password_not_match">The passwords are not matched</string>
+    <string name="password_not_complex">The password should contain at Least 1 ppper chase, 1 lower case, 1 digit
+    </string>
+    <string name="verify_email_sent_to">Verification email sent to: "</string>
+    <string name="verify_email">Please check your inbox, and verify your email address</string>
+
+    <!-- Forgott password Activity -->
+    <string name="send_button">Send</string>
+    <string name="email_sent">E-mail sent!</string>
+    <string name="email_not_exist">This e-mail address doesn\'t exist in our database!</string>
+
+    <!-- SMS Login Activity -->
+    <string name="sms_info_text">Please type your phone number in following format:\n +36205555555\n The message is for
+        free, it will not charged to you!
+    </string>
+    <string name="sms_info_text_code">Please type your code\nThank you</string>
+    <string name="tel_hint">Tel</string>
+    <string name="tel_hint_code">Code</string>
+    <string name="invalid_request">Verification failed\nInvalid request</string>
+    <string name="sms_quota_exceeded">Verification failed\n SMS quota exceed\n Please contact applications developers
+    </string>
+    <string name="sms_verify">Verify</string>
+    <string name="sms_check_your_messages">Please check your messages</string>
+    <string name="phone_not_valid">Not valid phone number</string>
+    <string name="wrong_code">Wrong Code\nCheck it again</string>
+
+    <!-- Menu -->
+    <string name="menu_home">Home</string>
+    <string name="menu_search">Search, Tender</string>
+    <string name="menu_services">Service providers</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_bookmarks">Bookmarks</string>
+    <string name="menu_rate">Ratings</string>
+    <string name="menu_map">Map</string>
+    <string name="menu_about">About</string>
+    <string name="menu_data_protection">Data protection</string>
+    <string name="menu_contact">Contact</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_delete">Delete Profile</string>
+
+    <string name="show_profile">Show profile</string>
+
+    <!-- My Profile fragment-->
+    <string name="my_profile_name_hint">Name</string>
+
+    <string name="my_profile_name_info">Your name. That\'s how you will appear in our application</string>
+    <string name="my_profile_email_info">Your email address. Not shown. Not public data</string>
+    <string name="my_profile_tel_info">Your phone number. Optional</string>
+    <string name="my_profile_city_info">City. Public data\nIn case you don\'t find your city\nChoose the most closest to
+        you
+    </string>
+    <string name="my_profile_address_hint">Address</string>
+    <string name="my_profile_address_info">Address. Not shown. Not public data</string>
+    <string name="my_profile_bio_hint">Please tell few words about you</string>
+    <string name="my_profile_send_button">Save</string>
+    <string name="my_profile_about">Please full fill this form. In case you find anything dubious you can touch \"i\"
+        icons for further informations.
+        Chnage your picture any time by touching the \"+\" sign. In case you can\'t find your city please choose the
+        most closest to you.
+        The phone number is optional data, but remember. If you have a phone number the provider or the client can
+        access very easy in the most fastest way.
+    </string>
+    <string name="my_profile_im_provider">I\'m provider</string>
+    <string name="my_profile_im_not_provider">I\'m not provider</string>
+    <string name="my_profile_alert_on_tender">Alert for Tenders</string>
+    <string name="my_profile_alert_on_chat">Alert for Chats</string>
+    <string name="my_profile_tender_info">In case you don\'t want to got alerts about the new tenders</string>
+    <string name="my_profile_chat_info">You can disable the new chat messages alerts</string>
+    <string name="my_profile_is_Service_info">If you are an service provider</string>
+    <string name="my_profile_error_required">Required</string>
+    <string name="my_profile_error_select_city">You must select city</string>
+
+
+    <string name="pickImageDialog_title">Choose</string>
+    <string name="pickImageDialog_camera">Camera</string>
+    <string name="pickImageDialog_gallery">Gallery</string>
+    <string name="pickImageDialog_cancel">Cancel</string>
+
+
+    <string name="show_profile_count_rate_empty">Not rated yet</string>
+    <string name="show_profile_count_rate_label">(%d) votes</string>
+
+    <string name="service">"Service: "</string>
+    <string name="satisfactions">Ratings</string>
+    <string name="noResultFound">No Result Found!</string>
+    <string name="OK">OK</string>
+    <string name="distanceLabel">Distance:</string>
+    <string name="distanceEndLabel">km from target</string>
+    <string name="only3TenderImageMsg">Possibility for 3 image</string>
+    <string name="countdownTenderImage">%1d more image</string>
+    <string name="noMoreImagePossibillity">No more possibbility</string>
+    <string name="fileUploadTitle">Uploading ...</string>
+    <string name="tenderApplyBtn">Apply</string>
+    <string name="tenderAlerted">Anounced %d person</string>
+    <string name="tenderSaw">%d times showed</string>
+    <string name="tenderApplied">%d Persons applied</string>
+
+    <string name="newMessageTitle">New Message</string>
+    <string name="newMessageBody">New message from %s</string>
+
+    <string name="newNewsPushTitle">News</string>
+    <string name="newNewsPushBody">New content available</string>
+
+
+    <string name="alertTitleAttention">Attention</string>
+    <string name="partnerDeletedConversation">Your partner %s already deleted this conversation!\nWill not got your
+        message!
+    </string>
+    <string name="bookmarkAdded">Your bookmark has been added!</string>
+    <string name="bookmarkAlreadyExist">Bookmark already exits</string>
+    <string name="doYouWantToAddToBookmark">Do you want to add to your bookmark list?</string>
+    <string name="areYouSureDelete">Are you sure ?\nDo you want to delete?</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="no">No</string>
+    <string name="typeYourMsg">type your message</string>
+    <string name="typePersonName">type persons name</string>
+    <string name="bookmarkPersonObjectTypeLabel">Persons bookmark</string>
+    <string name="bookmarkTenderObjectTypeLabel">Tenders bookmark</string>
+    <string name="bookmarkChatObjectTypeLabel">Chat Rooms bookmark</string>
+
+    <string name="noResults">No results found</string>
+
+    <string name="dataprotectionUrl">http://www.vasalka.hu/data_protection_hu.html</string>
+    <string name="name">Name</string>
+    <string name="tel">Tel</string>
+    <string name="email">Email</string>
+    <string name="tax">Tax number</string>
+    <string name="address">Address</string>
+    <string name="areYouSure">Are you sure?</string>
+    <string name="logout">Logout</string>
+    <string name="servicer">Provider</string>
+    <string name="client">Client</string>
+    <string name="tender">Tender</string>
+    <string name="satisfaction">Rating</string>
+    <string name="searchTitleSearch">Search</string>
+    <string name="searchTitleTender">New Tender</string>
+    <string name="timeOutTitle">Time Out</string>
+    <string name="timeOutMessage">Could not connect to the server!</string>
+    <string name="timeOutTryAgain">Try Again</string>
+    <string name="timeOutTryLater">Try It Later</string>
+    <string name="buildVersionLabel">App version</string>
+    <string name="news">News</string>
+    <string name="addTenderToBookmark">Add tender to bookmark</string>
+    <string name="newTenderTitle">New Tender</string>
+    <string name="appliedYourTender">Someone applied for your tender</string>
+    <string name="appliedPersonList">Applied persons:</string>
+    <string name="serviceAreaTextKm">+ %d km area</string>
+    <string name="sureDeletetitle">Delete your account!</string>
+    <string name="sureDeleteMessage">Are you sure?\nWe’re sorry to see you go!\nWe hope that we will see you
+        again.\nGood bye.
+    </string>
+    <string name="goodbye">We hope that we will see you
+        again.\nGood bye.
+    </string>
+    <string name="unknownError">Unknown error happend</string>
+
+</resources>

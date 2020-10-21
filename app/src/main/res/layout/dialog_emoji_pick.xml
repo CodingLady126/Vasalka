@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:minHeight="500dp">
+
+    <LinearLayout
+            android:id="@+id/tabBarLayout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" android:paddingTop="8dp" android:gravity="center_horizontal"
+            android:background="@color/myGray">
+
+        <TextView
+                android:id="@+id/cat1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="cat1"
+                android:textAlignment="center"
+                android:layout_marginStart="8dp"
+                android:paddingStart="8dp"
+                android:paddingTop="8dp"/>
+
+        <TextView
+                android:id="@+id/cat2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="cat2"
+                android:textAlignment="center" android:foregroundGravity="center" android:paddingStart="8dp"
+                android:paddingTop="8dp"/>
+
+        <TextView
+                android:id="@+id/cat3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="cat3"
+                android:textAlignment="center" android:paddingStart="8dp" android:paddingTop="8dp"/>
+
+        <TextView
+                android:id="@+id/cat4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="cat4"
+                android:textAlignment="center" android:paddingStart="8dp" android:paddingTop="8dp"/>
+
+        <TextView
+                android:id="@+id/cat5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="cat5"
+                android:textAlignment="center" android:paddingStart="8dp" android:paddingTop="8dp"/>
+
+        <TextView
+                android:id="@+id/cat6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="☠"
+                android:textAlignment="center" android:paddingStart="8dp" android:paddingTop="8dp"/>
+
+        <TextView
+                android:id="@+id/cat7"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="cat7"
+                android:textAlignment="center" android:paddingStart="8dp" android:paddingTop="8dp"/>
+
+        <TextView
+                android:id="@+id/cat8"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="cat8"
+                android:textAlignment="center" android:layout_marginEnd="8dp" android:paddingStart="8dp"
+                android:paddingTop="8dp"/>
+
+    </LinearLayout>
+    <ScrollView android:layout_height="0dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tabBarLayout"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="match_parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.flexbox.FlexboxLayout
+                android:id="@+id/flexEmojiLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:flexDirection="row"
+                app:flexWrap="wrap"
+                android:background="@color/white"
+                android:paddingTop="16dp">
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
